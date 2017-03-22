@@ -1,7 +1,3 @@
 div.organisation-btns
   div(ng-repeat="organisation in ctrl.organisationList track by $index").btn-container
-    btn(ng-click="switchOrganisation(organisation.id)").btn {{ organisation.name }}
-
-ol.dashboard-list
-  li(ng-repeat="dashboard in ctrl.dashboardList track by $index").dashboard-list-item
-    a(href="#" ng-click="navigate(dashboard.url)") {{ dashboard.name }}
+    a(ng-href="/profile/switch-org/{{ organisation.id }}" target="_self").btn {{ organisation.name }}

@@ -1,6 +1,5 @@
-# Dashboard List Panel Plugin for Grafana
-This is a panel plugin for [Grafana](http://grafana.org/). It shows a list of dashboards in user's current organization and a list of organizations
-the user belongs to.
+# Oragnisations Panel Plugin for Grafana
+This is a panel plugin for [Grafana](http://grafana.org/). It shows all organizations that user belongs to as navigable links.
 
 To understand what is a plugin, read the [Grafana's documentation about plugins](http://docs.grafana.org/plugins/development/).
 
@@ -18,4 +17,4 @@ grunt
 The compiled product is in ``dist`` folder.
 
 ### Deployment
-Copy the contents of ``dist`` folder to ``plugins/dashboard-list`` folder so Grafana will find the plugin and it can be used in Grafana dashboards.
+Copy the contents of ``dist`` folder to ``plugins/grafana-organisations-panel`` folder so Grafana will find the plugin and it can be used in Grafana dashboards.

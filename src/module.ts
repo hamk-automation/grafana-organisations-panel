@@ -1,5 +1,5 @@
-import {DashboardListCtrl} from './dashboard_list_ctrl';
+import {OrganisationsCtrl} from './organisations_ctrl';
 
 export {
-  DashboardListCtrl as PanelCtrl
+  OrganisationsCtrl as PanelCtrl
 };

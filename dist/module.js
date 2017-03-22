@@ -1,15 +1,15 @@
 'use strict';
 
-System.register(['./dashboard_list_ctrl'], function (_export, _context) {
+System.register(['./organisations_ctrl'], function (_export, _context) {
   "use strict";
 
-  var DashboardListCtrl;
+  var OrganisationsCtrl;
   return {
-    setters: [function (_dashboard_list_ctrl) {
-      DashboardListCtrl = _dashboard_list_ctrl.DashboardListCtrl;
+    setters: [function (_organisations_ctrl) {
+      OrganisationsCtrl = _organisations_ctrl.OrganisationsCtrl;
     }],
     execute: function () {
-      _export('PanelCtrl', DashboardListCtrl);
+      _export('PanelCtrl', OrganisationsCtrl);
     }
   };
 });
