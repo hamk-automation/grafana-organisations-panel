@@ -1,0 +1,29 @@
+{
+    "type": "panel",
+    "name": "Dashboard List for Pulssi",
+    "id": "dashboard-list",
+
+    "info": {
+        "description": "Dashboard List Panel for Grafana",
+        "author": {
+            "name": "Digia Finland Ltd"
+        },
+        "keywords": ["dashboard", "list", "panel"],
+        "version": "1.0.0",
+        "updated": "2017-03-13",
+        "logos": {
+            "small": "src/img/dashboard-list-icon.svg",
+            "large": "src/img/dashboard-list-icon.svg"
+        },
+        "links": [
+            {"name": "Project site", "url": "https://github.com/digiapulssi/grafana-dashboard-list-panel"}
+        ],
+        "screenshots": [
+            {"name": "Showcase", "path": "src/img/dashboard-list-screenshot.png"}
+        ]
+    },
+    "dependencies": {
+        "grafanaVersion": "4.x.x",
+        "plugins": [ ]
+    }
+}

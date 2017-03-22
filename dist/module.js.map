@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["DashboardListCtrl"],"mappings":";;;;;;;;AAASA,uB,wBAAAA,iB;;;2BACAA,iB","file":"module.js","sourcesContent":["import { DashboardListCtrl } from './dashboard_list_ctrl';\nexport { DashboardListCtrl as PanelCtrl };\n//# sourceMappingURL=module.js.map"]}
