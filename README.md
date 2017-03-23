@@ -1,4 +1,4 @@
-# Oragnisations Panel Plugin for Grafana
+# Organisations Panel Plugin for Grafana
 This is a panel plugin for [Grafana](http://grafana.org/). It shows all organizations that user belongs to as navigable links.
 
 To understand what is a plugin, read the [Grafana's documentation about plugins](http://docs.grafana.org/plugins/development/).
@@ -17,4 +17,11 @@ grunt
 The compiled product is in ``dist`` folder.
 
 ### Deployment
-Copy the contents of ``dist`` folder to ``plugins/grafana-organisations-panel`` folder so Grafana will find the plugin and it can be used in Grafana dashboards.
+Copy the contents of ``dist`` folder to ``plugins/organisations`` folder so Grafana will find the plugin and it can be used in Grafana dashboards.
+
+### Install the Panel
+Use the grafana-cli tool to install Organisations from the commandline:
+```
+grafana-cli plugins install digiapulssi-organisations-panel
+```
+The plugin will be installed into your grafana plugins directory; the default is /var/lib/grafana/plugins.
