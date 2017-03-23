@@ -1,7 +1,7 @@
 {
     "type": "panel",
-    "name": "Organisations Panel for Pulssi",
-    "id": "organisations",
+    "name": "Organisations",
+    "id": "digiapulssi-organisations-panel",
 
     "info": {
         "description": "Organisations Panel for Grafana",
