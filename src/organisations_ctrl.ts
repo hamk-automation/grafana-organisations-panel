@@ -30,7 +30,7 @@ class OrganisationsCtrl extends PanelCtrl {
         // Init variables
         this.backendSrv = backendSrv;
         this.organisationList = [];
-        // Store Grfana baseURL before dashboard definition
+        // Store Grafana baseURL before dashboard definition
         this.baseURL = window.location.href.split("/dashboard/")[0];
         // Load organizations for current user
         this.loadOrganisations();
