@@ -9,7 +9,7 @@
             "name": "Digia Finland Ltd"
         },
         "keywords": ["organisation", "list", "panel"],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "updated": "2017-03-22",
         "logos": {
             "small": "src/img/organisations-icon.svg",
