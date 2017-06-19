@@ -3,6 +3,8 @@ This is a panel plugin for [Grafana](http://grafana.org/). It shows all organiza
 
 To understand what is a plugin, read the [Grafana's documentation about plugins](http://docs.grafana.org/plugins/development/).
 
+![Sample Image](src/img/organisations-screenshot.png)
+
 ### Features
 * [Angular.js (1.0)](https://angularjs.org/)
 * [Typescript](https://www.typescriptlang.org/)
