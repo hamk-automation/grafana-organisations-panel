@@ -42,7 +42,10 @@ class OrganisationsCtrl extends PanelCtrl {
     loadOrganisations() {
         // Fetch list of organisations of current user from Grafana
         this.backendSrv.get("api/user/orgs").then((result: any) => {
-            this.organisationList = result.map((item: any) => {
+            this.organisationList = result.filter((filterItem: any) => {
+                return filterItem.orgId > 1;
+            })
+            .map((item: any) => {
                 return {
                     id: item.orgId,
                     name: item.name
