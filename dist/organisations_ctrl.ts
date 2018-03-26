@@ -31,7 +31,7 @@ class OrganisationsCtrl extends PanelCtrl {
         this.backendSrv = backendSrv;
         this.organisationList = [];
         // Store the URL part before dashboard definition as baseURL
-        this.baseURL = window.location.href.split("/dashboard/")[0];
+        this.baseURL = window.location.href.split("/d/")[0];
         // Load organizations for current user
         this.loadOrganisations();
     }
