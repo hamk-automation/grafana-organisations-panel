@@ -77,7 +77,7 @@ System.register(["app/plugins/sdk", "./style.css!"], function (_export, _context
                     _this.backendSrv = backendSrv;
                     _this.organisationList = [];
                     // Store the URL part before dashboard definition as baseURL
-                    _this.baseURL = window.location.href.split("/dashboard/")[0];
+                    _this.baseURL = window.location.href.split("/d/")[0];
                     // Load organizations for current user
                     _this.loadOrganisations();
                     return _this;
