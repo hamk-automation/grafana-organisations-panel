@@ -9,8 +9,8 @@
             "name": "Digia Finland Ltd"
         },
         "keywords": ["organisation", "list", "panel"],
-        "version": "1.0.1",
-        "updated": "2017-03-22",
+        "version": "1.1.0",
+        "updated": "2018-03-26",
         "logos": {
             "small": "src/img/organisations-icon.svg",
             "large": "src/img/organisations-icon.svg"
@@ -23,7 +23,7 @@
         ]
     },
     "dependencies": {
-        "grafanaVersion": "4.x.x",
+        "grafanaVersion": "5.x.x",
         "plugins": [ ]
     }
 }
