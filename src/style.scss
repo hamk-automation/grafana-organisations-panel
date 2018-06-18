@@ -1,11 +1,14 @@
 
 .organisation-btns {
+    text-align: center;
     margin: 10px;
 }
 
 .organisation-btn-container {
     display: inline-block;
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .organisation-btn {
